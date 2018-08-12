@@ -1,0 +1,651 @@
+@media(max-width:767px){    /* Mobile & Tablets*/
+
+    }
+
+@media(min-width:768px){    /* Small Screens */
+    .container {width: 670px;}
+}
+
+@media(min-width:992px){    /* Medium Screens */
+    .container {width: 870px;}
+}
+
+@media(min-width:1200px){   /* Large Screens */
+    .container {width: 970px;}
+}
+
+/* Start Framework */
+.container {
+    margin: auto;
+    padding-left: 15px;
+    padding-right: 15px
+}
+.text-center {text-align: center}
+.fl-left {float: left}
+.fl-right {float: right}
+.clear-fix {clear: both}
+.none {display: none}
+.list-style {list-style: none}
+.inline {display: inline-block}
+.block{display: block}
+.uppercase{text-transform: uppercase}
+.overflow {overflow: hidden;}
+.letter{letter-spacing: 2px;}
+    
+/* End Framework */ 
+
+/*-----------------------------My Project-----------------------------*/
+*{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    }
+body{
+    font-family: bebas-neue, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/*---------start Header--
+---------------------------------------------------------------*/
+.row0 {
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+}
+.row0 .logo {
+    width: 10%;
+    height: 50px;
+    background-color: #f63c3d;
+}
+.row0 .logo div {
+    width: 33.3333%;
+    color: #fff;
+    margin: 7.15% 31.5%;
+    border-bottom: 2px solid #fff;
+}
+.row0 nav{
+    width: 75%;
+    margin: auto;
+    height: 100%
+}
+.row0 nav ul {
+    width: 100%;
+    padding: 0 10%; 
+}
+.row0 nav ul li:not(:last-of-type) {
+    margin-right: 3%
+}
+
+.row0 nav ul li:hover {
+    color: #f63c3d;
+    border-bottom: 2px solid #f63c3d;
+}
+
+.row0 ul {
+    padding: 0;
+    color: #958d8d
+}
+/*NavButton------------*/
+.row0 nav .navbt{
+    width: 40%;
+    padding: 2.71% 11%;
+    margin: auto;
+}
+.row0 nav .navbt span{
+    color: #f63c3d;
+}
+
+.row0 .data {
+    width: 15%;
+    margin: auto
+}
+.row0 .data ul li{
+    width: 47%;
+}
+.row0 .data ul li i {
+    padding-left: 5%;
+}
+
+/*-----Media Query--
+-------------------------------------------------------------*/
+
+@media(max-width:767px){    /* Mobile & Tablets*/
+    .row0 .logo{width: 10% !important}
+    .row0 .logo div {margin: 9.15% 31.5% !important}
+    .row0 nav {width: 60% !important}
+    .row0 nav .navbt {padding: 3% 5% !important}
+    .row0 .data{width: 30% !important}
+    .row0 .data ul{margin: 7.54% 0 !important}
+    .row0 .data ul li{width: 47%;margin:0;} 
+}
+
+@media(min-width:768px) and (max-width:991px){    /* Small Screens */
+    .row0 .logo {height: 63px}
+    .row0 .logo div {width: 40%;margin: 15.15% 31.5% !important}
+    .row0 nav .navbt {padding: 3% 5%;}
+    .row0 .data ul li{width: 47%;margin: 7% 0 !important} 
+}
+
+@media(min-width:992px) and (max-width:1199px){    /* Medium Screens */
+    .row0 nav ul li{margin-right: 4%;}
+    .row0 .data ul li{width: 30%;}
+}
+
+/*---------End Header--
+---------------------------------------------------------------*/
+
+/*---------Start Projects--
+---------------------------------------------------------------*/
+
+.row1 .about-projects h1 {
+    font-weight: normal
+}
+.row1 .about-projects .form0{
+    width: 25%;
+}
+.row1 .about-projects input {
+    width: 100%;
+    font-size: 10px;
+    margin: 15px 0;
+    padding: 15px 15px;
+    background-color: #f63c3d;
+    color: #fff;
+    font-size: 11px;
+    border: none
+}
+/*-------------------------------fig1-------------------------------*/
+.row1 .fig1 {
+    margin-top: 40px;
+    margin-bottom: 25px;
+}
+.row1 .fig1 ul {
+    margin: 0;
+    padding: 0
+}
+.row1 .fig1 ul li:first-of-type{
+    width: 31%;
+    margin-right: 2.5%
+}
+
+.row1 .fig1 ul li:last-of-type{
+    width: 66%
+}
+
+.row1 .fig1 ul li img{
+    width: 100%;
+    height: 212.78px;
+}
+.row1 .fig1 ul li article h6{
+    font-size: 16px;
+    margin: 10px 0;
+}
+.row1 .fig1 ul li article p{
+    margin: 0;
+    font-size: 12px;
+}
+/*-------------------------------fig2-------------------------------*/
+.row1 .fig2 {
+    margin: 25px 0;
+}
+.row1 .fig2 ul {
+    margin: 0;
+    padding: 0
+}
+.row1 .fig2 ul li:first-of-type{
+    width: 66%;
+    margin-right: 2.5%
+}
+
+.row1 .fig2 ul li:last-of-type{
+    width: 31%
+}
+
+.row1 .fig2 ul li img{
+    width: 100%;
+    height: 212.78px;
+}
+.row1 .fig2 ul li article h6{
+    font-size: 16px;
+    margin: 10px 0;
+}
+.row1 .fig2 ul li article p{
+    margin: 0;
+    font-size: 12px;
+}
+/*-----fig3-----*/
+.row1 .fig3 {
+    margin: 25px 0;
+}
+.row1 .fig3 ul {
+    margin: 0;
+    padding: 0
+}
+.row1 .fig3 ul li{
+    width: 31%;
+}
+.row1 .fig3 ul li:not(:last-of-type){
+    margin-right: 3%
+}
+.row1 .fig3 ul li img{
+    width: 100%;
+    height: 212.78px;
+}
+.row1 .fig3 ul li article h6{
+    font-size: 16px;
+    margin: 10px 0;
+}
+.row1 .fig3 ul li article p{
+    margin: 0;
+    font-size: 12px;
+}
+
+/*-----More Projects-----*/
+.row1 .more-projects {
+    margin: 50px 30%;
+    padding-bottom: 15px;
+    border-bottom: 5px solid #000;
+}
+.row1 .more-projects:hover{
+    color: #f63c3d;
+    border-bottom-color: #f63c3d;
+}
+
+/*-----Media Query--
+-------------------------------------------------------------*/
+@media(max-width:767px){    /* Mobile & Tablets*/
+    .row1 .about-projects .form0{width: 45%;}
+}
+
+@media(min-width:768px) and (max-width:991px){    /* Small Screens */
+    .row1 .about-projects .form0{width: 33%;}
+    .row1 .fig1 ul li:first-of-type{width: 31%;margin-right: 3.4%}
+    .row1 .fig1 ul li:last-of-type{width: 64%}
+    .row1 .fig1 ul li article h6{font-size: 12px;}
+    .row1 .fig2 ul li:first-of-type{width: 64%;margin-right: 3.4%}
+    .row1 .fig2 ul li:last-of-type{width: 31%}
+    .row1 .fig2 ul li article h6{font-size: 12px;}
+    .row1 .fig3 ul li{width: 31%;}
+    .row1 .fig3 ul li:not(:last-of-type){margin-right: 2.8%}
+    .row1 .fig3 ul li article h6{font-size: 12px;}
+    .row1 .more-projects {margin: 50px 24%;}
+}
+
+@media(min-width:992px) and (max-width:1199px){    /* Medium Screens */
+    .row1 .fig1 ul li:first-of-type{width: 31%;margin-right: 3.4%}
+    .row1 .fig1 ul li:last-of-type{width: 65%}
+    .row1 .fig2 ul li:first-of-type{width: 65%;margin-right: 3.4%}
+    .row1 .fig2 ul li:last-of-type{width: 31%}
+    .row1 .fig3 ul li{width: 31%;}
+    .row1 .fig3 ul li:not(:last-of-type){margin-right: 2.9%}
+}
+
+/*---------End Projects--
+---------------------------------------------------------------*/
+
+
+/*---------Start Work--
+---------------------------------------------------------------*/
+.row2 {
+    background-color: #362d30;
+}
+
+.row2 .work {
+    padding: 60px 0;
+    color: #fff;
+}
+.row2 .work h2 {
+    font-size: 45px
+}
+.row2 .work i {
+    margin: 0 45%;
+    padding-bottom: 37.350px;
+    font-size:85px;
+}
+.row2 .work p {
+    margin: 0;
+    padding-bottom: 37.350px;
+    font-size: 8px;
+}
+
+/*-----Media Query--
+-------------------------------------------------------------*/
+@media(max-width:420px){    /* Mobile & Tablets*/
+    .row2 .work i {margin: 0 38% !important;padding-bottom: 37.350px;}
+}
+
+/*---------End Work--
+---------------------------------------------------------------*/
+
+
+/*---------Start Purchase--
+---------------------------------------------------------------*/
+
+.row3 {
+    background-color: #f63c3d
+}
+.row3 .purchase {
+    margin: 45px 0;
+    color: #fff
+}
+
+.row3 .purchase h6 {
+    margin: 10px;
+    font-size: 24px;
+}
+
+.row3 .purchase p {
+    color: #faa09f
+}
+.row3 .purchase button{
+    padding: 15px 35px;
+    margin: 0 35%;
+    background-color: #f63c3d;
+    border: 1px solid #faa09f;
+    color: #fff;
+    font-size: 12px;
+}
+/*-----Media Query--
+-------------------------------------------------------------*/
+@media(max-width:480px){    /* Mobile & Tablets*/
+    .row3 .purchase button{margin: 0 20%;}
+}
+
+@media(min-width:768px) and (max-width:991px) {     /*Small screens*/
+    .row3 .purchase h6 {font-size: 18px}
+    .row3 .purchase button{margin: 0 30%;}
+}
+
+/*---------End Purchase--
+---------------------------------------------------------------*/
+
+/*---------Start Info--
+---------------------------------------------------------------*/
+.row4{
+    background-color: #31282b;
+}
+.row4 .information ul{
+    padding: 0;
+}
+
+.row4 .information ul li{
+margin: 0 10.7%
+}
+.row4 .information ul li i{
+    color: #f63c3d
+}
+.row4 .information ul li:first-of-type i{
+    padding:0 23% ;
+}
+.row4 .information ul li:nth-of-type(2) i{
+    padding: 0 40%;
+}
+.row4 .information ul li:last-of-type i {
+    padding: 0 20%
+}
+.row4 .information ul li p{
+    margin: 0;
+    padding: 5px 0;
+    line-height:20px; 
+    font-size: 12px;
+    color: #958d8d;
+}
+.row4 .information ul li p span{
+    font-size: 25px;
+    color: #fff
+}
+.row4 .information .mob-dev h6{
+    margin: 0;
+    color: #fff;
+    font-size: 24px;
+}
+.row4 .information .mob-dev input{
+    width: 25%;
+    margin: 15px 37.5%;
+    padding: 15px 15px;
+    background-color: #f63c3d;
+    color: #fff;
+    font-size: 11px;
+    border: none
+}
+
+/*-----------------------------------*/
+.row4 .form2{
+    margin: 15px 0;
+}
+.row4 .form2 input:not(:last-of-type){
+    width: 33%;
+    margin: 20px 0;
+    padding: 10px;
+    background-color: #31282b;
+    border: 1px solid #958d8d
+}
+
+.row4 .form2 textarea{
+    width: 100%;
+    height: 250px;
+    padding: 15px;
+    background-color: #31282b;
+    border: 1px solid #958d8d
+}
+.row4 .form2 input:last-of-type{
+    width: 20%;
+    height:50px;
+    margin: 25px 40%;
+    padding: 0;
+    font-size: 14px;
+    color: #31282b;
+    border: 1px solid #958d8d;
+}
+/*placeholder*/
+.row4 .form2 input::-webkit-input-placeholder{
+    font-size: 12px;
+}
+.row4 .form2 textarea::-webkit-input-placeholder{
+    font-size: 12px;
+}
+.row4 .form2 input::-moz-placeholder{
+    font-size: 12px;
+}
+.row4 .form2 textarea::-moz-placeholder{
+    font-size: 12px;
+}
+.row4 .form2 input::-ms-input-placeholder{
+    font-size: 12px;
+}
+.row4 .form2 textarea::-ms-input-placeholder{
+    font-size: 12px;
+}
+.row4 .form2 input::placeholder{
+    font-size: 12px;
+}
+.row4 .form2 textarea::placeholder{
+    font-size: 12px;
+}
+
+
+
+/*-----Media Query--
+-------------------------------------------------------------*/
+@media(max-width:533px){
+    .row4 .information ul li{width: 77%;}
+    .row4 .information ul li:first-of-type i{padding:0 41% ;}
+    .row4 .information ul li:nth-of-type(2) i{padding: 0 47%;}
+    .row4 .information ul li:last-of-type i {padding: 0 41%}
+    .row4 .information .mob-dev input{width: 92%;margin: 15px 4%;}
+}
+@media(min-width:534px) and (max-width:717px){
+    .row4 .information ul li{width: 77%;}
+    .row4 .information ul li:first-of-type i{padding:0 45% ;}
+    .row4 .information ul li:nth-of-type(2) i{padding: 0 47%;}
+    .row4 .information ul li:last-of-type i {padding: 0 45%}
+    .row4 .information .mob-dev input{width: 50%;margin: 15px 24.7%;}
+    .row4 .form2 input:last-of-type{width: 50% !important;margin: 25px 25% !important}
+}
+@media(max-width:717px){
+    .row4 .form2 input:not(:last-of-type){width: 50%;margin: 15px 25%}
+    .row4 .form2 input:last-of-type{width: 80%;margin: 25px 10%}
+}
+
+@media(min-width:718px) and (max-width:767px){    /* Mobile & Tablets*/
+    .row4 .information ul li{margin: 0 8.5%}
+    .row4 .information .mob-dev input{width: 40%;margin: 15px 30%;}
+    .row4 .form2 input:not(:last-of-type){width: 32.89%;}
+    .row4 .form2 input:last-of-type{width: 40%;margin: 25px 30%}
+}
+
+@media(min-width:768px) and (max-width:991px){    /* Small Screens */
+    .row4 .information ul li{margin: 0 8.1%}
+    .row4 .information .mob-dev input {width: 40% ;margin: 15px 30%}
+        .row4 .form2 input:not(:last-of-type){width: 32.87%;}
+    .row4 .form2 input:last-of-type{width: 30%;margin: 25px 35%}
+}
+
+@media(min-width:992px) and (max-width:1199px){    /* Medium Screens */
+    .row4 .information ul li{margin: 0 10.1%}  
+    .row4 .form2 input:not(:last-of-type){width: 32.98%;}
+}
+
+/*---------End Info--
+---------------------------------------------------------------*/
+
+/*---------Start Loc--
+---------------------------------------------------------------*/
+.row5{
+    background-color: #362d30
+}
+.row5 .loc{
+    width: 60%;
+    margin: 20% 20%;
+    color: #fff;
+    background-color: #f63c3d
+}
+.row5 .loc{
+    padding: 60px;
+}
+.row5 .loc i{
+    margin: 0 47%;
+}
+.row5 .loc p{
+    font-size: 12px;
+}
+.row5 .loc h6{
+    margin: 25px 0;
+    font-size: 22px;
+}
+.row5 .loc span{
+    margin: 0 29.6%;
+    font-size: 22px;
+}
+
+/*-----Media Query--
+-------------------------------------------------------------*/
+@media(max-width:537px){
+    .row5 .loc{padding: 10px;}
+    .row5 .loc h6{font-size: 15.5px;}
+    .row5 .loc span{margin: 0 22%;font-size: 12px;}
+}
+@media(min-width:538px) and (max-width:671px){
+    .row5 .loc{padding: 20px;}
+    .row5 .loc span{margin: 0 24.7%;font-size: 14.5px;}
+}
+@media(min-width:672px) and (max-width:717px){
+    .row5 .loc{padding: 30px;}
+    .row5 .loc span{margin: 0 29%;font-size: 15px;}
+}
+
+@media(min-width:718px) and (max-width:767px){    /* Mobile & Tablets*/
+    .row5 .loc span{margin: 0 20%;font-size: 20px;}
+}
+
+@media(min-width:768px) and (max-width:991px){    /* Small Screens */
+    .row5 .loc h6{margin: 25px 0;font-size: 16px;}
+    .row5 .loc span{margin: 0 19%;font-size: 19px;}
+}
+
+@media(min-width:992px) and (max-width:1199px){    /* Medium Screens */
+    .row5 .loc span{margin: 0 28%;font-size: 20px;}
+}
+
+/*---------End Loc--
+---------------------------------------------------------------*/
+
+/*---------Start Footer--
+---------------------------------------------------------------*/
+footer{
+    color: #5e5c5d;
+    background-color: #31282b;
+    font-size: 14px;
+}
+footer .lf{
+    margin: 30px 0;
+}
+footer .rt{
+    width: 23%;
+    margin: 16px 0
+}
+footer .rt ul{padding: 0;}
+/*---Media Query--
+-------------------------------------------------------------*/
+@media(max-width:469px){
+    footer{font-size: 6px;}
+    footer .lf{margin: 15px 0;}
+    footer .rt{width: 35%;margin: 9px 0}
+}
+
+@media(min-width:470px) and (max-width:644px){
+    footer{font-size: 10px;}
+    footer .rt{width: 30%;margin: 20px 0}
+}
+
+@media(min-width:645px) and (max-width:991px){
+    footer .rt{width: 30%;}
+}
+
+/*---------End Footer--
+---------------------------------------------------------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
